@@ -18,10 +18,10 @@ This repository contains a simple SDN-based firewall implemented using the POX c
 
 ## Files
 
-| File             | Description |
-|------------------|-------------|
-| `POX_Controller.py` | The reactive POX firewall controller implementation |
-| `topology.py`    | The Mininet script that creates a topology of 1 switch and 5 hosts |
+| File                | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| `POX_Controller.py` | The reactive POX firewall controller implementation                |
+| `topology.py`       | The Mininet script that creates a topology of 1 switch and 5 hosts |
 
 ## Environment Setup
 
@@ -29,24 +29,24 @@ This project was developed and tested on a virtual machine specifically prepared
 
 ### Recommended Environment
 
-- **Virtual Machine**: Lubuntu 24.04 LTS 64-bit  
-- **Hypervisor**: Oracle VirtualBox (latest version recommended)  
-- **Allocated Resources**:  
-- Disk Space: 10 GB  
-- RAM: 2 GB  
-- Video Memory: 128 MB (3D acceleration enabled)  
-- CPUs: 1 or 2 (adjustable from VM settings for better performance)  
-- **Guest Additions**: Installed (for file sharing and system acceleration)  
-- **User Credentials**:  
-- Username: `csuser`  
-- Password: `csuser`  
-- **Python Versions**:  
-- Python 3 (for Mininet)  
-- Python 2.7 (required for POX controller)  
-- **Software Included**:  
-- Mininet (with Open vSwitch)  
-- POX Controller  
-- Wireshark (for packet analysis)  
+- **Virtual Machine**: Lubuntu 24.04 LTS 64-bit
+- **Hypervisor**: Oracle VirtualBox (latest version recommended)
+- **Allocated Resources**:
+- Disk Space: 10 GB
+- RAM: 2 GB
+- Video Memory: 128 MB (3D acceleration enabled)
+- CPUs: 1 or 2 (adjustable from VM settings for better performance)
+- **Guest Additions**: Installed (for file sharing and system acceleration)
+- **User Credentials**:
+- Username: `csuser`
+- Password: `csuser`
+- **Python Versions**:
+- Python 3 (for Mininet)
+- Python 2.7 (required for POX controller)
+- **Software Included**:
+- Mininet (with Open vSwitch)
+- POX Controller
+- Wireshark (for packet analysis)
 - iperf, ping utilities
 
 ### Important Notes
@@ -59,6 +59,7 @@ This project was developed and tested on a virtual machine specifically prepared
 ### Getting Started
 
 A pre-configured virtual disk (`.vdi`) is provided through the course eClass platform. After downloading:
+
 1. Extract it using [7-Zip](https://www.7-zip.org/).
 2. Create a new Virtual Machine in VirtualBox:
    - Type: **Linux**
@@ -69,7 +70,6 @@ A pre-configured virtual disk (`.vdi`) is provided through the course eClass pla
 
 For detailed instructions and the virtual disk, refer to the course material at:  
 **https://eclass.aueb.gr/modules/ebook/show.php/INF121/11/**
-
 
 ## How to Run
 
@@ -102,8 +102,10 @@ For educational purposes only.
 GitHub: [@ChristosBaboulis](https://github.com/ChristosBaboulis)  
 Email: chrisb2603@gmail.com
 
----
-
 ## Acknowledgments
 
 This project was developed as part of an MSc academic assignment in the course "Internet Technologies and Services", focusing on SDN controller-based firewalls using POX and Mininet.
+
+## License
+
+This project is licensed under the MIT License.
